@@ -544,6 +544,7 @@ a:hover {
 
 .cards-1 .card-title {
 	margin-bottom: 1.125rem;
+	
 }
 
 .cards-1 .card-body p {
@@ -1443,3 +1444,40 @@ a:hover {
 	height: 200px;
 	object-fit: cover;
 }
+
+.card-portfolio{
+	position: relative;
+	overflow: hidden;
+	border-radius: 6%;
+}
+.card-img-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	opacity: 0;
+	transition: opacity 0.3s;
+	background: rgba(0, 0, 0, 0.5);
+}
+.card-portfolio:hover .card-img-overlay {
+	opacity: 1;
+	
+}
+.card-title-portfolio {
+	color: white;
+	border-color: white;
+	text-align: center;
+}
+.card-text-portfolio{
+	color: white;
+	text-align: center;
+	
+}
+
+
+

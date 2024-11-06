@@ -483,8 +483,10 @@ a:hover {
 }
 
 .gradient-bg{
-	background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); /* Chrome 10-25, Safari 5.1-6 */
-  	background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,7,200,1) 35%, rgba(1,27,161,1) 100%); 
+	*/
 }
 /********************/
 /*     Services     */
@@ -1070,6 +1072,8 @@ a:hover {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
 	/* end of extra pages */
+
+
 }
 /* end of min-width 768px */
 
@@ -1411,6 +1415,8 @@ a:hover {
 		margin-left: 2.875rem;
 	}
 	/* end of extra pages */
+
+	
 }
 /* end of min-width 1200px */
 .navi-pills .navi-link.active {
@@ -1480,9 +1486,11 @@ a:hover {
 }
 
 .marker{
-	position: absolute;
-	right: 4%;
-	top: 20%;
+	position: fixed;
+	
+	left: 10px;
+	bottom: 70px;
+
 
 }
 

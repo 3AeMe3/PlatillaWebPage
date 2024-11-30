@@ -1495,3 +1495,9 @@ a:hover {
 }
 
 
+.img-diferenc{
+	margin-left: 40px;
+	border-radius: 10px;
+	box-shadow: 1px 5px 6px black;
+}
+

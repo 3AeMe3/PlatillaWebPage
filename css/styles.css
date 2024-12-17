@@ -481,13 +481,13 @@ a:hover {
 .header .image-container {
 	margin-top: 5rem;
 }
-
+/*
 .gradient-bg{
-	/*
+	
 	background: rgb(2,0,36);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,7,200,1) 35%, rgba(1,27,161,1) 100%); 
-	*/
-}
+	
+}*/
 /********************/
 /*     Services     */
 /********************/
@@ -1487,17 +1487,30 @@ a:hover {
 
 .marker{
 	position: fixed;
-	
 	left: 10px;
 	bottom: 70px;
 
 
 }
 
+.marker {
+	transition: transform 0.3s ease-in-out; /* Duración y suavidad */
+	transform-origin: center; /* Centro como punto de referencia */
+}
 
+.marker:hover {
+	transform: scale(1.2); /* Escala al 120% */
+}
 .img-diferenc{
-	margin-left: 40px;
+	
 	border-radius: 10px;
 	box-shadow: 1px 5px 6px black;
 }
 
+
+@media (max-width:900px){
+	
+	.marker{
+		display: none;
+	}
+}
